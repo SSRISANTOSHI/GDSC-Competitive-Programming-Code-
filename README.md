@@ -61,7 +61,7 @@ Usage:
 
 Acknowledgements:
 
-I would like to thank my college for providing me this wonderful opportunity to showcase my talent in coding the programming problems using Python programming language.
+I would like to express my gratitude towards the college for providing me this wonderful opportunity to showcase my talent in coding the programming problems using Python programming language.
 
     
       
