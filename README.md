@@ -4,7 +4,8 @@ Description:
 
   The programming problems are solved using python programming language which is user friendly to all the people to learn and explore.
   
-  This programming code is for those people who find difficulty in solving the programming problem.
+  The programming code is been done using lots of comment lines to ake user understand easilyThis programming code is for those people 
+  who find difficulty in solving the programming problem.
   
   The .py file contains the code for the following programming problems:
   
