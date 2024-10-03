@@ -20,7 +20,7 @@ Description:
   
   The programming code targets the audience who are at the begginer level of the python programming language and this code could help them solve the programming questions.
 
-  The key feature of the project is that the programming code is user friendly since the language used in the entire code is python.
+  The key feature is that the programming code is user friendly since the language used in the entire code is python.
 
   
 
