@@ -1,6 +1,7 @@
 #COMPETITIVE PROGRAMING CODE
 
 Description:
+
   The programming problems are solved using python programming language which is user friendly to all the people to learn and explore.
   
   This programming code is for the people who find difficulty or do not have any idea in solving the programming problem.
