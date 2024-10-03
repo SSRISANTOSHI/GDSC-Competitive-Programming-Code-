@@ -16,7 +16,7 @@ Description:
       
       * The bottle shipping problem(input the total number of bottles to be shipped by the company. The function prints the break-up of the number of cartons used in descending order of capacity).
       
-      * Design your own stack and perform the push(), pop() and peek() functions. you are allowed to use only arrays or linked lists.
+      * Design your own stack and perform the push(), pop() and peek() functions. You are allowed to use only arrays or linked lists.
   
   The programming code targets the audience who are at the begginer level of the python programming language and this code could help them solve the programming questions.
 
