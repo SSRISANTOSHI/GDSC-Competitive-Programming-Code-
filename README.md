@@ -7,10 +7,15 @@ Description:
   This programming code is for the people who find difficulty or do not have any idea in solving the programming problem.
   
   The .py file contains the code for the following programming problems:
+  
       * Arrange words in a string in the order of their incresing length.
+      
       * Removing duplicate elements from the sorted array.
-      * print the data based on the entered day and year(considering leap years also)
+      
+      * print the data based on the entered day and year(considering leap years also).
+      
       * The bottle shipping problem(input the total number of bottles to be shipped by the company. The function prints the break-up of the number of cartons used in descending order of capacity).
+      
       * Design your own stack and perform the push(), pop() and peek() functions. you are allowed to use only arrays or linked lists.
   
   The programming code targets the audience who are at the begginer level of the python programming language and this code could help them solve the programming questions.
@@ -47,7 +52,9 @@ Usage:
 
 
     * You can open the .py file and it gets automatically opened in the IDLE.
+    
     * If you want to run all the programs at once you can run them by pressing F5.
+    
     * If you want to run the selected program problem you can comment out the rest of the code by blocking it and click format option which appears at the top of the screen and press comment out region option.
       To uncomment the code you can again block the commented programming lines by again clicking the format option and then select the uncomment region.
 
