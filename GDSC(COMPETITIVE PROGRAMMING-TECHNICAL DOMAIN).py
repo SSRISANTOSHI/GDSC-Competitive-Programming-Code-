@@ -86,30 +86,43 @@ day_of_year_to_date(day_num, year)
 # Q: The bottle shipping problem
 
 def calculate_cartons(bottles):
-    # Define carton sizes and corresponding bottle capacities
-    carton_sizes = {'XL': 48, 'Large': 24, 'Medium': 12, 'Small': 6}
-    
-    # Dictionary to store the number of cartons used for each size
-    cartons_used = {'XL': 0, 'Large': 0, 'Medium': 0, 'Small': 0}
-    
-    # Calculate the number of cartons needed for each size in descending order of capacity
-    for size, capacity in carton_sizes.items():
-        if bottles >= capacity:
-            cartons_used[size] = bottles // capacity  # Determine how many cartons of this size are needed
-            bottles %= capacity  # Get the remaining bottles that don't fit into this size carton
-    
-    # Print the break-up of the number of cartons used
-    print("Carton Break-up:")
-    for size in ['XL', 'Large', 'Medium', 'Small']:
-        if cartons_used[size] > 0:
-            print(f"{size}: {cartons_used[size]} carton(s)")
-    
+    # Carton sizes
+    xl = 48
+    large = 24
+    medium = 12
+    small = 6
+
+    # Calculate the number of cartons needed
+    count_xl = bottles // xl
+    bottles = bottles % xl
+
+    count_large = bottles // large
+    bottles = bottles % large
+
+    count_medium = bottles // medium
+    bottles = bottles % medium
+
+    count_small = bottles // small
+    bottles = bottles % small
+
+    # If there are leftover bottles, add an additional small carton
     if bottles > 0:
-        print(f"Remaining bottles: {bottles} (not enough to fill a Small carton)")
+        count_small += 1
 
-bottles =int(input("Enter the total number of bootles: "))
+    # Output the number of cartons used in descending order
+    result = []
+    if count_xl > 0:
+        result.append(f"{count_xl} xl")
+    if count_large > 0:
+        result.append(f"{count_large} large")
+    if count_medium > 0:
+        result.append(f"{count_medium} medium")
+    if count_small > 0:
+        result.append(f"{count_small} small")
+    print(", ".join(result))
+
+bottles = int(input("Enter the number of bottles: "))
 calculate_cartons(bottles)
-
 
 
 
